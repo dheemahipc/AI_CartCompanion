@@ -1,0 +1,13 @@
+# Diet Expert AI - Requirements
+# Python 3.8+
+
+# Core dependencies
+google-adk>=0.1.0
+
+# Optional but recommended
+python-dotenv>=1.0.0  # For environment variable management
+
+# Development dependencies (optional)
+pytest>=7.0.0  # For testing
+black>=22.0.0  # For code formatting
+pylint>=2.15.0  # For linting
