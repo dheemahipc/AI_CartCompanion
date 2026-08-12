@@ -1,0 +1,75 @@
+/* Message entry animation */
+.message-enter {
+  animation: messageSlideIn 0.3s ease-out;
+}
+
+@keyframes messageSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Sidebar slide animation */
+.sidebar-enter {
+  animation: sidebarSlideIn 0.25s ease-out;
+}
+
+@keyframes sidebarSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Overlay fade */
+.overlay-enter {
+  animation: overlayFade 0.25s ease-out;
+}
+
+@keyframes overlayFade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Settings slider custom styling */
+input[type='range'] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 3px;
+  outline: none;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #4F46E5;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+input[type='range']::-webkit-slider-thumb:hover {
+  background: #4338CA;
+}
+
+input[type='range']::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: #4F46E5;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}

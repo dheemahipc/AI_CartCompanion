@@ -1,0 +1,27 @@
+# Core
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Embeddings (local - CPU only)
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# LLM API (Groq - no local GPU needed)
+groq>=0.4.0
+
+# Vector Database
+chromadb>=0.4.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Web Framework
+fastapi>=0.100.0
+uvicorn>=0.23.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+
+# PII Detection & Masking
+presidio-analyzer>=2.2.0
+presidio-anonymizer>=2.2.0
